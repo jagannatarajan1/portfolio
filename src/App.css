@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -11,6 +11,13 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.text-white {
+  margin-left: 5px;
+  margin-bottom: 0px;
+  font-size: 1.6rem;
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
 .App-header {
@@ -32,6 +39,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
